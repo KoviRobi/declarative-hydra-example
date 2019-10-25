@@ -1,3 +1,3 @@
 { nixpkgs }: let pkgs = import nixpkgs {}; in {
-  inherit (pkgs) hello;
+  inherit (pkgs) hello vim;
 }
